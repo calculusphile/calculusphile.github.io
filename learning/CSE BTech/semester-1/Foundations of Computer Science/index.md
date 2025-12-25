@@ -7,7 +7,7 @@ title: Foundations of Computer Science
 
 Covers mathematical and logical foundations for computing: discrete math, proofs, basic logic, and problem solving techniques.
 
-[Back to Semester I]({{ '/learning/CSE BTech/semester-1/' | relative_url }})
+[Back to Semester I]({{ '/learning/CSE%20BTech/semester-1/' | relative_url }})
 
 ## Syllabus
 

@@ -78,7 +78,7 @@ Explore program-specific curriculum:
 
 <div class="projects-list">
     <div class="project-card">
-        <h3><a href="{{ '/learning/CSE BTech/' | relative_url }}">CSE B.Tech (IIIT Pune)</a></h3>
+        <h3><a href="{{ '/learning/CSE%20BTech/' | relative_url }}">CSE B.Tech (IIIT Pune)</a></h3>
         <p>Semester-wise course structure and subject intros.</p>
     </div>
 </div>

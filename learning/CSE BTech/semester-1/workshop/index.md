@@ -7,7 +7,7 @@ layout: page
 
 Practical hands-on sessions and lab workshops designed to reinforce theoretical concepts through projects and guided exercises.
 
-[Back to Semester I]({{ '/learning/CSE BTech/semester-1/' | relative_url }})
+[Back to Semester I]({{ '/learning/CSE%20BTech/semester-1/' | relative_url }})
 
 ## Syllabus
 

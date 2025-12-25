@@ -7,4 +7,4 @@ title: High Performance Computing
 
 Introduction to parallel computing, HPC architectures, and performance optimization techniques.
 
-[Back to Semester VII]({{ '/learning/CSE BTech/semester-7/' | relative_url }})
+[Back to Semester VII]({{ '/learning/CSE%20BTech/semester-7/' | relative_url }})

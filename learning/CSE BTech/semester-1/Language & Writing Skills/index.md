@@ -7,7 +7,7 @@ title: Language & Writing Skills
 
 Focuses on communication, technical writing, and language skills important for academic and professional environments.
 
-[Back to Semester I]({{ '/learning/CSE BTech/semester-1/' | relative_url }})
+[Back to Semester I]({{ '/learning/CSE%20BTech/semester-1/' | relative_url }})
 
 ## Syllabus
 

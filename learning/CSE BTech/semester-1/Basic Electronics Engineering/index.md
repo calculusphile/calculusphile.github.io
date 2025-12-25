@@ -7,7 +7,7 @@ title: Basic Electronics Engineering
 
 An introductory course covering basic electronic components, circuits, and practical lab work. Topics typically include diodes, transistors, amplifiers and simple circuit analysis.
 
-[Back to Semester I]({{ '/learning/CSE BTech/semester-1/' | relative_url }})
+[Back to Semester I]({{ '/learning/CSE%20BTech/semester-1/' | relative_url }})
 
 ## Syllabus
 

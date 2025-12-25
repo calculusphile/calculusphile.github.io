@@ -7,4 +7,4 @@ title: Minor Project-III
 
 Capstone-style minor project with extended scope and development requirements.
 
-[Back to Semester VI]({{ '/learning/CSE BTech/semester-6/' | relative_url }})
+[Back to Semester VI]({{ '/learning/CSE%20BTech/semester-6/' | relative_url }})

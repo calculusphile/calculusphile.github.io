@@ -7,7 +7,7 @@ title: Computer Programming Concept & Practice
 
 Introductory programming course focusing on problem solving, algorithms, and hands-on coding practice using a structured language (C/C++/Python depending on syllabus).
 
-[Back to Semester I]({{ '/learning/CSE BTech/semester-1/' | relative_url }})
+[Back to Semester I]({{ '/learning/CSE%20BTech/semester-1/' | relative_url }})
 
 ## Syllabus
 

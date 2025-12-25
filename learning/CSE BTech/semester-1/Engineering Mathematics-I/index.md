@@ -7,7 +7,7 @@ title: Engineering Mathematics-I
 
 Covers calculus, linear algebra or other mathematical foundations essential for engineering problem solving.
 
-[Back to Semester I]({{ '/learning/CSE BTech/semester-1/' | relative_url }})
+[Back to Semester I]({{ '/learning/CSE%20BTech/semester-1/' | relative_url }})
 
 ## Syllabus
 
