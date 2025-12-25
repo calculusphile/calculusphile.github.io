@@ -1,0 +1,22 @@
+title: Calculusphile
+description: Projects and Learning Resources
+author: Calculusphile
+baseurl: ""
+url: "https://calculusphile.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:slug/
+
+# Plugins
+plugins:
+  - jekyll-feed
