@@ -64,12 +64,24 @@ Explore topic-wise paths and quick intros below.
         <p>Contest strategy, patterns and practice resources.</p>
     </div>
     <div class="project-card">
-        <h3><a href="{{ '/learning/ai-ml/' | relative_url }}">AI & ML</a></h3>
-        <p>Introductory ML concepts, models and projects.</p>
+                <h3><a href="{{ '/learning/ai-ml/' | relative_url }}">AI & ML</a></h3>
+                <p>Introductory ML concepts, models and projects.</p>
     </div>
 </div>
 
 [Explore full learning index →]({{ '/learning' | relative_url }})
+
+
+## Other
+
+Explore program-specific curriculum:
+
+<div class="projects-list">
+    <div class="project-card">
+        <h3><a href="{{ '/learning/CSE BTech/' | relative_url }}">CSE B.Tech (IIIT Pune)</a></h3>
+        <p>Semester-wise course structure and subject intros.</p>
+    </div>
+</div>
 
 
 ## 💡 About This Site

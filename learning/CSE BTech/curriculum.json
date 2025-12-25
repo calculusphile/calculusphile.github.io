@@ -1,0 +1,94 @@
+{
+  "program": "B.Tech CSE (IIIT Pune)",
+  "source": "https://www.iiitp.ac.in/page/btech-cse-new",
+  "semesters": [
+    {
+      "semester": 1,
+      "subjects": [
+        "Basic Electronics Engineering",
+        "Foundations of Computer Science",
+        "Computer Programming Concept & Practice",
+        "Engineering Mathematics-I",
+        "Language & Writing Skills",
+        "Innovation",
+        "Environmental Science"
+      ]
+    },
+    {
+      "semester": 2,
+      "subjects": [
+        "Digital Logic & Design",
+        "Data Structure & Algorithms",
+        "Object Oriented Programming Language",
+        "Engineering Mathematics-II",
+        "Humanities",
+        "Entrepreneurship Studies",
+        "Consciousness and Values"
+      ]
+    },
+    {
+      "semester": 3,
+      "subjects": [
+        "Analysis & Design of Algorithm",
+        "Computer Organization and Architecture",
+        "Theory of Computation",
+        "Database Management System",
+        "Python Programming",
+        "Probability and Random Process"
+      ]
+    },
+    {
+      "semester": 4,
+      "subjects": [
+        "Computer Network",
+        "Artificial Intelligence",
+        "Operating System",
+        "Java Programming",
+        "Compiler Design",
+        "Minor Project-I",
+        "Discrete Structure"
+      ]
+    },
+    {
+      "semester": 5,
+      "subjects": [
+        "Machine Learning",
+        "Software Engineering",
+        "Cryptography and Network Security",
+        "Elective 1 (DE)",
+        "Elective 2 (OE)",
+        "Linear and Nonlinear Optimization",
+        "Minor Project-II"
+      ]
+    },
+    {
+      "semester": 6,
+      "subjects": [
+        "Computer Graphics",
+        "Cloud Computing",
+        "Internet of Things",
+        "Elective 1 (DE)",
+        "Elective 2 (OE)",
+        "Elective 3 (OE)",
+        "Minor Project-III"
+      ]
+    },
+    {
+      "semester": 7,
+      "subjects": [
+        "Big Data Analytics",
+        "High Performance Computing",
+        "Elective 1 (DE)",
+        "Elective 2 (OE)",
+        "Major Project-I",
+        "Internship"
+      ]
+    },
+    {
+      "semester": 8,
+      "subjects": [
+        "Major Project-II"
+      ]
+    }
+  ]
+}
