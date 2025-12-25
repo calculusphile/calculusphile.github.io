@@ -30,7 +30,7 @@ public:
 };
 ```
 
-For Full Solution [CLICK HERE](../learning/data-structures/LinkedList/leetcode-876.cpp)
+For Full Solution [CLICK HERE]({{ '/learning/data-structures/LinkedList/leetcode-876.cpp' | relative_url }})
 
 ---
 

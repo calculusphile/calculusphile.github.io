@@ -1,3 +1,9 @@
+---
+layout: project
+title: "Face Recognition Project"
+description: "A machine learning project for detecting and recognizing human faces in images and video streams."
+---
+
 # Face Recognition Project
 
 ## Overview
