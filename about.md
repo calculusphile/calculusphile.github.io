@@ -11,7 +11,7 @@ Welcome! I'm **Calculusphile**, a passionate developer and lifelong learner with
 
 ### 💻 Programming
 - **Languages**: C, Python, JavaScript, and more
-- **Web Development**: Building modern web applications
+- **Competative Programming**
 - **Full Stack**: From backend servers to frontend interfaces
 
 ### 📊 Data Structures & Algorithms
@@ -19,15 +19,8 @@ Welcome! I'm **Calculusphile**, a passionate developer and lifelong learner with
 - Optimizing data structures for performance
 - Solving complex computational problems
 
-### ⚡ Electronics
-- Microcontroller programming (Arduino, ESP32)
-- Circuit design and prototyping
-- IoT projects and embedded systems
+### ⚡ System Design
 
-### 🔧 Mechanical Engineering
-- Understanding design principles
-- Learning CAD and 3D modeling
-- Hands-on building and prototyping
 
 ## 🌟 What You'll Find Here
 

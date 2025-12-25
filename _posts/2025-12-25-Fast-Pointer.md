@@ -12,7 +12,7 @@ Slow and Fast pointer are very useful in Linked List.
 
 ## Problems
 
-1. [Leetcode 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)
+**1. <a href="https://leetcode.com/problems/middle-of-the-linked-list/description/" target="_blank" rel="noopener">Leetcode 876. Middle of the Linked List</a>**
 
 
 ```cpp
@@ -30,7 +30,7 @@ public:
 };
 ```
 
-For Full Solution [CLICK HERE]({{ '/learning/data-structures/LinkedList/leetcode-876.cpp' | relative_url }})
+**For Full Solution <a href="{{ '/learning/data-structures/LinkedList/leetcode-876.cpp' | relative_url }}" target="_blank" rel="noopener">CLICK HERE</a>**
 
 ---
 
