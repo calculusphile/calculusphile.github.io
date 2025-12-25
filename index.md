@@ -72,7 +72,7 @@ Explore topic-wise paths and quick intros below.
 [Explore full learning index →]({{ '/learning' | relative_url }})
 
 
-## Other
+## CSE BTech Curriculum
 
 Explore program-specific curriculum:
 
@@ -82,7 +82,7 @@ Explore program-specific curriculum:
         <p>Semester-wise course structure and subject intros.</p>
     </div>
 </div>
-
+s
 
 ## 💡 About This Site
 
