@@ -5,7 +5,8 @@ title: Home
 
 # 👋 Welcome to Calculusphile
 
-Your personal hub for projects, blogs, and learning resources in programming, electronics, and mechanical engineering.
+My personal hub for projects, blogs, and learning resources in programming and Computer Science & Engineering.
+
 
 ## 🚀 Latest Projects
 
@@ -20,7 +21,9 @@ Your personal hub for projects, blogs, and learning resources in programming, el
     {% endfor %}
 </div>
 
+
 [View All Projects →]({{ '/projects' | relative_url }})
+
 
 ## 📝 Latest Blog Posts
 
@@ -30,6 +33,7 @@ Your personal hub for projects, blogs, and learning resources in programming, el
 
 [Read More Posts →]({{ '/blog' | relative_url }})
 
+
 ## 💡 About This Site
 
-This portfolio showcases my journey in programming, learning data structures, exploring electronics, and understanding mechanical systems. Feel free to explore my work and [learn more about me]({{ '/about' | relative_url }}).
+This portfolio showcases my journey in programming, learning data structures & Algorithm during my Computer Science Engineering. Feel free to explore my work and [learn more about me]({{ '/about' | relative_url }}).
