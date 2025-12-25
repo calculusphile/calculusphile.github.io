@@ -3,18 +3,33 @@ layout: default
 title: Home
 ---
 
-# Welcome to Calculusphile
+# 👋 Welcome to Calculusphile
 
-This is your personal portfolio and learning resource hub. Here you'll find my projects, blog posts, and learning materials.
+Your personal hub for projects, blogs, and learning resources in programming, electronics, and mechanical engineering.
 
-## Latest Projects
+## 🚀 Latest Projects
 
-Browse my [projects](/projects) to see what I'm working on.
+<div class="projects-list">
+    {% for project in site.projects limit: 3 %}
+    <div class="project-card">
+        <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+        {% if project.description %}
+            <p>{{ project.description }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
 
-## Latest Blog Posts
+[View All Projects →]({{ '/projects' | relative_url }})
 
-Check out my [blog](/blog) for articles on programming, electronics, and learning.
+## 📝 Latest Blog Posts
 
-## About Me
+{% for post in site.posts limit: 3 %}
+- **[{{ post.title }}]({{ post.url }})** - <time>{{ post.date | date: "%B %d, %Y" }}</time>
+{% endfor %}
 
-Learn more [about me](/about) and my interests in programming, electronics, and mechanical engineering.
+[Read More Posts →]({{ '/blog' | relative_url }})
+
+## 💡 About This Site
+
+This portfolio showcases my journey in programming, learning data structures, exploring electronics, and understanding mechanical systems. Feel free to explore my work and [learn more about me]({{ '/about' | relative_url }}).

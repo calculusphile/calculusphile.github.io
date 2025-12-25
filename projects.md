@@ -3,9 +3,9 @@ layout: default
 title: Projects
 ---
 
-# Projects
+# 🛠️ Projects
 
-Here are some of my projects:
+Here are some of my latest projects and explorations:
 
 <div class="projects-list">
 {% for project in site.projects %}
