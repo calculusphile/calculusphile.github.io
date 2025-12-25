@@ -82,7 +82,7 @@ Explore program-specific curriculum:
         <p>Semester-wise course structure and subject intros.</p>
     </div>
 </div>
-s
+
 
 ## 💡 About This Site
 
