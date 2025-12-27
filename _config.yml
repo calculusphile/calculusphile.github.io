@@ -1,3 +1,5 @@
+# Allow future-dated posts to be published
+future: true
 title: Calculusphile
 description: Projects and Learning Resources
 author: Calculusphile
