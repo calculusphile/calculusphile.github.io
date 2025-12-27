@@ -9,7 +9,15 @@ permalink: /blogs/
 
 Welcome to the blogs index. Explore posts by category:
 
-<div class="section-divider"></div>
+- [DSA](/blogs/dsa/)
+- [Algorithms](/blogs/algorithms/)
+- [Competitive Programming](/blogs/competitive-programming/)
+- [System Design](/blogs/system-design/)
+- [Data Plane](/blogs/data-plane/)
+- [General](/blogs/general/)
+
+
+<!-- <div class="section-divider"></div>
 
 <div class="category-list" style="display:flex;flex-wrap:wrap;gap:2.5rem 2.5rem;justify-content:center;margin:2.5rem 0 2.5rem 0;">
   <a href="{{ '/blogs/dsa/' | relative_url }}" class="category-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:220px;max-width:260px;padding:2.2rem 1.2rem;background:rgba(255,255,255,0.85);border-radius:16px;box-shadow:0 2px 12px #e2e8f0;transition:transform 0.15s,box-shadow 0.15s;text-decoration:none;color:#222;position:relative;overflow:hidden;">
@@ -38,6 +46,7 @@ Welcome to the blogs index. Explore posts by category:
     <span style="color:#607d8b;font-size:0.98rem;">General & Learning posts</span>
   </a>
 </div>
+--->
 
 <div style="text-align:center;margin-top:2.5rem;">
   <a href="{{ '/' | relative_url }}" class="btn-crosslink">
