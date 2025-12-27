@@ -33,6 +33,7 @@ Feel free to reach out or explore my work:
 - **GitHub**: [github.com/calculusphile](https://github.com/calculusphile)
 - **Projects**: Check out my [portfolio](/projects)
 - **Blog**: Read my [latest posts](/blog)
+ - **YouTube**: <a href="https://youtube.com/@calculusphile?si=ZXuiXQ2fsTA3Fhax" target="_blank" rel="noopener noreferrer">Calculusphile on YouTube</a>
 
 ---
 

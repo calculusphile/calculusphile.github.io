@@ -462,3 +462,45 @@ a[role="button"]:hover, .btn:hover {
     margin: 0;
     color: var(--light-text);
 }
+
+/* Home interactive controls */
+.home-top {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0 2rem 0;
+}
+.hf-tabs {
+    display:flex;
+    gap:0.5rem;
+}
+.hf-tab {
+    padding:0.5rem 0.75rem;
+    background:rgba(255,255,255,0.06);
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:700;
+    color:var(--primary-color);
+    border:1px solid var(--border-color);
+}
+.hf-tab.active {
+    background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
+    color: white;
+}
+.home-search {
+    display:flex;
+    gap:0.75rem;
+    align-items:center;
+}
+.home-search input[type="search"]{
+    flex:1;
+    padding:0.6rem 0.8rem;
+    border-radius:8px;
+    border:1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+.hf-panel{ display:none; }
+.hf-panel.active{ display:block; }
+.activity-list{ display:flex; gap:1rem; align-items:flex-start; }
+.activity-list .col{ flex:1; }
+.home-post-item{ padding:0.25rem 0; color:var(--text-color); }
+
