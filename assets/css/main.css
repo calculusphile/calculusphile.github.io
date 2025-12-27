@@ -49,20 +49,13 @@ body {
     padding: 1.5rem 0;
     border-bottom: 3px solid var(--secondary-color);
     box-shadow: var(--shadow);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    z-index: 999;
+    position: static;
+    width: 100%;
     transition: box-shadow 0.2s;
 }
 
 .site-header.scrolled {
-    padding: 0.7rem 0;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.13);
-    background: linear-gradient(135deg, #1a1f36 80%, #2d3e50 100%);
-    border-bottom-width: 2px;
-    transition: padding 0.2s, box-shadow 0.2s, background 0.2s;
+    /* No effect when not fixed */
 }
 
 .site-header-inner {
@@ -144,7 +137,7 @@ body {
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
-    padding: 6.5rem 1rem 3rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .site-main h1 {
