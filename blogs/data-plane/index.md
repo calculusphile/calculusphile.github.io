@@ -23,6 +23,3 @@ Explore all Data Plane, VPP, and DPDK blog posts:
   </div>
 {% endfor %}
 </div>
-  {% endif %}
-{% endfor %}
-</div>

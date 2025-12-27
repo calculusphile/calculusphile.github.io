@@ -23,6 +23,3 @@ Explore all Algorithm blog posts:
   </div>
 {% endfor %}
 </div>
-  {% endif %}
-{% endfor %}
-</div>

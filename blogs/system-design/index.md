@@ -23,6 +23,3 @@ Explore all System Design blog posts:
   </div>
 {% endfor %}
 </div>
-  {% endif %}
-{% endfor %}
-</div>

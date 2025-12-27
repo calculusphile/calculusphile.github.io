@@ -23,6 +23,3 @@ Explore all General and Learning blog posts:
   </div>
 {% endfor %}
 </div>
-  {% endif %}
-{% endfor %}
-</div>

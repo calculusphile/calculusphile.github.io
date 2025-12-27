@@ -23,6 +23,3 @@ Explore all Data Structures & Algorithms blog posts:
   </div>
 {% endfor %}
 </div>
-  {% endif %}
-{% endfor %}
-</div>

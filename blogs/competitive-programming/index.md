@@ -23,6 +23,3 @@ Explore all Competitive Programming and Problem Solving blog posts:
   </div>
 {% endfor %}
 </div>
-  {% endif %}
-{% endfor %}
-</div>
