@@ -8,7 +8,7 @@ permalink: /blogs/dsa/
 
 Explore all Data Structures & Algorithms blog posts:
 
-{% assign dsa_posts = site.posts | where_exp: "post", "post.categories contains 'dsa' or post.categories contains 'algorithms'" %}
+<!-- {% assign dsa_posts = site.posts | where_exp: "post", "post.categories contains 'dsa' or post.categories contains 'algorithms'" %}
 {% for post in dsa_posts %}
 - [{{ post.title }}]({{ post.url | relative_url }}) <small>{{ post.date | date: "%B %d, %Y" }}</small>
-{% endfor %}
+{% endfor %} -->
