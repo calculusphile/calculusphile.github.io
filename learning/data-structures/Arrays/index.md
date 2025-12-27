@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Backtracking
-permalink: /learning/data-structures-algorithms/arrays/
+permalink: /learning/data-structures/arrays/
 ---
 
 

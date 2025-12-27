@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Strings
-permalink: /learning/data-structures-algorithms/strings/
+permalink: /learning/data-structures/strings/
 ---
 
 # Strings

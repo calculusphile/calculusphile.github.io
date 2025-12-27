@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Linked List
-permalink: /learning/data-structures-algorithms/linked-list/
+permalink: /learning/data-structures/linked-list/
 ---
 
 # Linked List

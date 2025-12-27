@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Recursion
-permalink: /learning/data-structures-algorithms/recursion/
+permalink: /learning/data-structures/recursion/
 ---
 
 # Recursion

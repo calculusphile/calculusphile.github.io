@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Binary Search
-permalink: /learning/data-structures-algorithms/binary-search/
+permalink: /learning/data-structures/binary-search/
 ---
 
 # Binary Search

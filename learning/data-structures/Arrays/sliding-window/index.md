@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sliding Window
-permalink: /learning/data-structures-algorithms/arrays/sliding-window/
+permalink: /learning/data-structures/arrays/sliding-window/
 ---
 
 # <img src="/ajdevhub/assets/icons/rocket.svg" class="inline-icon" alt=""> Sliding Window

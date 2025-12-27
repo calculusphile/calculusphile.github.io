@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Graphs
-permalink: /learning/data-structures-algorithms/graphs/
+permalink: /learning/data-structures/graphs/
 ---
 
 # Graphs

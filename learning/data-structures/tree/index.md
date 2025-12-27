@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Trees
-permalink: /learning/data-structures-algorithms/trees/
+permalink: /learning/data-structures/tree/
 ---
 
 # Trees

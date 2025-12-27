@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dynamic Programming
-permalink: /learning/data-structures-algorithms/dynamic-programming/
+permalink: /learning/data-structures/dynamic-programming/
 ---
 
 # Dynamic Programming

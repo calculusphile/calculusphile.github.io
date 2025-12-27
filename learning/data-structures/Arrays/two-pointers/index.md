@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sliding Window
-permalink: /learning/data-structures-algorithms/arrays/two-pointers/
+permalink: /learning/data-structures/arrays/two-pointers/
 ---
 
 # <img src="/ajdevhub/assets/icons/rocket.svg" class="inline-icon" alt=""> Two Ponters Technique

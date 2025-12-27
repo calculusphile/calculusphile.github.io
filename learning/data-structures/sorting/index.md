@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sorting
-permalink: /learning/data-structures-algorithms/sorting/
+permalink: /learning/data-structures/sorting/
 ---
 
 # Sorting

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Queues
-permalink: /learning/data-structures-algorithms/queues/
+permalink: /learning/data-structures/queues/
 ---
 
 # Queues

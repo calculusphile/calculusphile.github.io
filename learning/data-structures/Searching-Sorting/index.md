@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Recursion
-permalink: /learning/data-structures-algorithms/searching-sorting/
+permalink: /learning/data-structures/searching-sorting/
 ---
 
 # Searching & Sorting

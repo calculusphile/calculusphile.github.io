@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Backtracking
-permalink: /learning/data-structures-algorithms/backtracking/
+permalink: /learning/data-structures/backtracking/
 ---
 
 # Backtracking
