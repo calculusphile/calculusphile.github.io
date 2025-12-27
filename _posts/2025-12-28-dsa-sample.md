@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Sample DSA Blog"
 date: 2025-12-28
 categories: [dsa]

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Sample General Blog"
 date: 2025-12-28
 categories: [general]
