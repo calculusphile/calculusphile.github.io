@@ -9,7 +9,7 @@ permalink: /blogs/general/
 
 Explore all General and Learning blog posts:
 
-<div class="section-divider"></div>
+<!-- <div class="section-divider"></div>
 
 <div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
 {% assign gen_posts = site.posts | where_exp: "post", "post.categories contains 'general' or post.categories contains 'learning'" %}
@@ -23,4 +23,4 @@ Explore all General and Learning blog posts:
 		<div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
 	</div>
 {% endfor %}
-</div>
+</div> -->
