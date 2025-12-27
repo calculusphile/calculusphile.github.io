@@ -1,4 +1,4 @@
----
+categories: general
 layout: post
 title: "Welcome to My Blog"
 date: 2025-01-01
