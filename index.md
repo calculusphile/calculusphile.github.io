@@ -87,7 +87,7 @@ Explore topic-wise paths and quick intros below.
 
 <div class="projects-list">
     <div class="project-card">
-        <h3><a href="{{ '/learning/data-structures/' | relative_url }}">Data Structures & Algorithms</a></h3>
+        <h3><a href="{{ '/learning/dsa/' | relative_url }}">Data Structures & Algorithms</a></h3>
         <p>Fundamentals, implementations, and problem-solving patterns.</p>
     </div>
     <div class="project-card">
