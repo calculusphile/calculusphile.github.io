@@ -1,7 +1,6 @@
----
 layout: default
 title: Compiler Design
----
+permalink: /learning/cse-btech/semester-4/compiler-design/
 
 # Compiler Design
 

@@ -1,7 +1,6 @@
----
 layout: default
 title: Operating System
----
+permalink: /learning/cse-btech/semester-4/operating-system/
 
 # Operating System
 

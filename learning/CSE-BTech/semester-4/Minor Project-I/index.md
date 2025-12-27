@@ -1,7 +1,6 @@
----
 layout: default
 title: Minor Project-I
----
+permalink: /learning/cse-btech/semester-4/minor-project-i/
 
 # Minor Project-I
 

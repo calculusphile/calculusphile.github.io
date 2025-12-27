@@ -1,7 +1,6 @@
----
 layout: default
 title: Java Programming
----
+permalink: /learning/cse-btech/semester-4/java-programming/
 
 # Java Programming
 

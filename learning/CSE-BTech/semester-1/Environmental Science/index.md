@@ -1,7 +1,6 @@
----
 layout: default
 title: Environmental Science
----
+permalink: /learning/cse-btech/semester-1/environmental-science/
 
 # Environmental Science
 

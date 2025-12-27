@@ -1,7 +1,6 @@
----
 layout: default
 title: Language & Writing Skills
----
+permalink: /learning/cse-btech/semester-1/language-writing-skills/
 
 # Language & Writing Skills
 

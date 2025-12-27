@@ -1,7 +1,6 @@
----
 layout: default
 title: Computer Network
----
+permalink: /learning/cse-btech/semester-4/computer-network/
 
 # Computer Network
 

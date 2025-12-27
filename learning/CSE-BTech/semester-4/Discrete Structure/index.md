@@ -1,7 +1,6 @@
----
 layout: default
 title: Discrete Structure
----
+permalink: /learning/cse-btech/semester-4/discrete-structure/
 
 # Discrete Structure
 

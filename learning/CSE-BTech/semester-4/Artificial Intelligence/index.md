@@ -1,7 +1,6 @@
----
 layout: default
 title: Artificial Intelligence
----
+permalink: /learning/cse-btech/semester-4/artificial-intelligence/
 
 # Artificial Intelligence
 
