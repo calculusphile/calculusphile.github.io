@@ -1,8 +1,6 @@
----
 layout: default
 title: Humanities
----
-
+permalink: /learning/cse-btech/semester-2/humanities/
 # Humanities
 
 Covers foundational humanities topics that support broader communication and societal understanding.

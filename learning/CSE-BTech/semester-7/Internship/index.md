@@ -1,7 +1,6 @@
----
 layout: default
 title: Internship
----
+permalink: /learning/cse-btech/semester-7/internship/
 
 # Internship
 

@@ -12,37 +12,37 @@ Explore the core subjects for Semester III. Click on a subject to dive deeper.
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">📊</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Analysis & Design of Algorithm/" style="color:#1976d2;text-decoration:none;">Analysis & Design of Algorithm</a>
+			<a href="analysis-design-algorithm/" style="color:#1976d2;text-decoration:none;">Analysis & Design of Algorithm</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">💾</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Computer Organization and Architecture/" style="color:#1976d2;text-decoration:none;">Computer Organization and Architecture</a>
+			<a href="computer-organization-architecture/" style="color:#1976d2;text-decoration:none;">Computer Organization and Architecture</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🔣</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Theory of Computation/" style="color:#1976d2;text-decoration:none;">Theory of Computation</a>
+			<a href="theory-of-computation/" style="color:#1976d2;text-decoration:none;">Theory of Computation</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🗄️</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Database Management System/" style="color:#1976d2;text-decoration:none;">Database Management System</a>
+			<a href="database-management-system/" style="color:#1976d2;text-decoration:none;">Database Management System</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🐍</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Python Programming/" style="color:#1976d2;text-decoration:none;">Python Programming</a>
+			<a href="python-programming/" style="color:#1976d2;text-decoration:none;">Python Programming</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🎲</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Probability and Random Process/" style="color:#1976d2;text-decoration:none;">Probability and Random Process</a>
+			<a href="probability-random-process/" style="color:#1976d2;text-decoration:none;">Probability and Random Process</a>
 		</h3>
 	</div>
 </div>

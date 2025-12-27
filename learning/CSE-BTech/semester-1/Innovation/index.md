@@ -2,12 +2,10 @@
 layout: default
 title: Innovation
 ---
-
 # Innovation
-
-An introductory module encouraging creative thinking, ideation and basic project-based learning to foster innovation skills.
-
-[Back to Semester I]({{ '/learning/CSE%20BTech/semester-1/' | relative_url }})
+title: Innovation
+permalink: /learning/cse-btech/semester-1/innovation/
+[Back to Semester I]({{ '/learning/cse-btech/semester-1/' | relative_url }})
 
 ## Syllabus
 

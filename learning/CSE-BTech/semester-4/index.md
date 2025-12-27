@@ -12,43 +12,43 @@ Explore the core subjects for Semester IV. Click on a subject to dive deeper.
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🌐</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Computer Network/" style="color:#1976d2;text-decoration:none;">Computer Network</a>
+			<a href="computer-network/" style="color:#1976d2;text-decoration:none;">Computer Network</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🤖</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Artificial Intelligence/" style="color:#1976d2;text-decoration:none;">Artificial Intelligence</a>
+			<a href="artificial-intelligence/" style="color:#1976d2;text-decoration:none;">Artificial Intelligence</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">💽</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Operating System/" style="color:#1976d2;text-decoration:none;">Operating System</a>
+			<a href="operating-system/" style="color:#1976d2;text-decoration:none;">Operating System</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">☕</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Java Programming/" style="color:#1976d2;text-decoration:none;">Java Programming</a>
+			<a href="java-programming/" style="color:#1976d2;text-decoration:none;">Java Programming</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">📝</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Compiler Design/" style="color:#1976d2;text-decoration:none;">Compiler Design</a>
+			<a href="compiler-design/" style="color:#1976d2;text-decoration:none;">Compiler Design</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🛠️</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Minor Project-I/" style="color:#1976d2;text-decoration:none;">Minor Project-I</a>
+			<a href="minor-project-i/" style="color:#1976d2;text-decoration:none;">Minor Project-I</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🔢</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Discrete Structure/" style="color:#1976d2;text-decoration:none;">Discrete Structure</a>
+			<a href="discrete-structure/" style="color:#1976d2;text-decoration:none;">Discrete Structure</a>
 		</h3>
 	</div>
 </div>

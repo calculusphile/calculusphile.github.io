@@ -12,43 +12,43 @@ Explore the core subjects for Semester V. Click on a subject to dive deeper.
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🤖</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Machine Learning/" style="color:#1976d2;text-decoration:none;">Machine Learning</a>
+			<a href="machine-learning/" style="color:#1976d2;text-decoration:none;">Machine Learning</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🛠️</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Software Engineering/" style="color:#1976d2;text-decoration:none;">Software Engineering</a>
+			<a href="software-engineering/" style="color:#1976d2;text-decoration:none;">Software Engineering</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">🔒</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Cryptography and Network Security/" style="color:#1976d2;text-decoration:none;">Cryptography and Network Security</a>
+			<a href="cryptography-network-security/" style="color:#1976d2;text-decoration:none;">Cryptography and Network Security</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">📚</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Elective 1 (DE)/" style="color:#1976d2;text-decoration:none;">Elective 1 (DE)</a>
+			<a href="elective-1-de/" style="color:#1976d2;text-decoration:none;">Elective 1 (DE)</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">📚</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Elective 2 (OE)/" style="color:#1976d2;text-decoration:none;">Elective 2 (OE)</a>
+			<a href="elective-2-oe/" style="color:#1976d2;text-decoration:none;">Elective 2 (OE)</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">➗</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Linear and Nonlinear Optimization/" style="color:#1976d2;text-decoration:none;">Linear and Nonlinear Optimization</a>
+			<a href="linear-nonlinear-optimization/" style="color:#1976d2;text-decoration:none;">Linear and Nonlinear Optimization</a>
 		</h3>
 	</div>
 	<div class="project-card" style="min-width:220px;max-width:300px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
 		<span style="font-size:2rem;">📝</span>
 		<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.1rem;font-weight:700;">
-			<a href="Minor Project-II/" style="color:#1976d2;text-decoration:none;">Minor Project-II</a>
+			<a href="minor-project-ii/" style="color:#1976d2;text-decoration:none;">Minor Project-II</a>
 		</h3>
 	</div>
 </div>
