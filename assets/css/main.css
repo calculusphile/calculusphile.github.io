@@ -374,6 +374,12 @@ a[role="button"]:hover, .btn:hover {
         gap: 1rem;
     }
 
+    /* Ensure header is not fixed on mobile */
+    .site-header {
+        position: static !important;
+        width: 100% !important;
+    }
+
     .site-nav {
         gap: 0.75rem;
     }
