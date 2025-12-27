@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Backtracking
+title: Arrays
 permalink: /learning/dsa/arrays/
 ---
 
@@ -75,7 +75,7 @@ We will cover each with template + example.
 
 ## ⭐ Pattern → Template → Example
 
-### 🔶 [Pattern 1: Sliding Window](SlidingWindow/sliding-window.md)
+### 🔶 [Pattern 1: Sliding Window](sliding-window/index.md)
 
 Sliding Window is used when we deal with **contiguous subarrays or substrings**.
 
@@ -100,7 +100,7 @@ for (int right = 0; right < n; right++) {
 1. [Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 
 
-### 🔶 [Pattern 2: Two Pointers](TwoPointers/two-pointer.md)
+### 🔶 [Pattern 2: Two Pointers](two-pointers/index.md)
 
 Used when array is sorted, or when you're searching for pairs.
 
