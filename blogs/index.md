@@ -46,6 +46,14 @@ Welcome to the blogs index. Explore posts by category:
 </div>
 
 
+
+## All Blog Posts
+
+{% assign all_posts = site.posts %}
+{% for post in all_posts %}
+- [{{ post.title }}]({{ post.url | relative_url }}) <small>{{ post.date | date: "%B %d, %Y" }}</small>
+{% endfor %}
+
 <div style="text-align:center;margin-top:2.5rem;">
   <a href="{{ '/' | relative_url }}" class="btn-crosslink">
     <span style="font-size:1.3rem;">🏠</span> Back to Home
