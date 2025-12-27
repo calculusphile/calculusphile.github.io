@@ -6,101 +6,37 @@ permalink: /blogs/
 
 # Blogs
 
+
 Welcome to the blogs index. Explore posts by category:
 
 <div class="section-divider"></div>
 
-<!-- DSA & Algorithms -->
-<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">Data Structures & Algorithms</h2>
-<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
-{% for post in site.posts %}
-  {% if post.categories contains 'dsa' or post.categories contains 'algorithms' %}
-    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
-      <span style="font-size:2rem;">🔎</span>
-      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
-        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
-      </h3>
-      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
-      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
-    </div>
-  {% endif %}
-{% endfor %}
-</div>
-
-<div class="section-divider"></div>
-
-<!-- Competitive Programming -->
-<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">Competitive Programming & Problem Solving</h2>
-<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
-{% for post in site.posts %}
-  {% if post.categories contains 'competitive-programming' or post.categories contains 'problem-solving' %}
-    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
-      <span style="font-size:2rem;">🏆</span>
-      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
-        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
-      </h3>
-      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
-      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
-    </div>
-  {% endif %}
-{% endfor %}
-</div>
-
-<div class="section-divider"></div>
-
-<!-- System Design & General Learning -->
-<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">System Design & General Learning</h2>
-<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
-{% for post in site.posts %}
-  {% if post.categories contains 'system-design' or post.categories contains 'learning' or post.categories contains 'general' %}
-    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
-      <span style="font-size:2rem;">🧠</span>
-      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
-        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
-      </h3>
-      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
-      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
-    </div>
-  {% endif %}
-{% endfor %}
-</div>
-
-<div class="section-divider"></div>
-
-<!-- Data Plane (VPP, DPDK, etc.) -->
-<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">Data Plane & Networking</h2>
-<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
-{% for post in site.posts %}
-  {% if post.categories contains 'data-plane' or post.categories contains 'vpp' or post.categories contains 'dpdk' %}
-    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
-      <span style="font-size:2rem;">🌐</span>
-      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
-        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
-      </h3>
-      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
-      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
-    </div>
-  {% endif %}
-{% endfor %}
-</div>
-
-<div class="section-divider"></div>
-
-<!-- All Other Blogs -->
-<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">All Blogs</h2>
-<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
-{% for post in site.posts %}
-  {% unless post.categories contains 'dsa' or post.categories contains 'algorithms' or post.categories contains 'data-plane' or post.categories contains 'vpp' or post.categories contains 'dpdk' or post.categories contains 'competitive-programming' or post.categories contains 'problem-solving' or post.categories contains 'system-design' or post.categories contains 'learning' or post.categories contains 'general' %}
-    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
-      <span style="font-size:2rem;">📝</span>
-      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
-        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
-      </h3>
-      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
-      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
-    </div>
-  {% endunless %}
-{% endfor %}
+<div class="category-list" style="display:flex;flex-wrap:wrap;gap:2.5rem 2.5rem;justify-content:center;margin:2.5rem 0 2.5rem 0;">
+  <a href="{{ '/blogs/dsa/' | relative_url }}" class="category-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:220px;max-width:260px;padding:2.2rem 1.2rem;background:rgba(255,255,255,0.85);border-radius:16px;box-shadow:0 2px 12px #e2e8f0;transition:transform 0.15s,box-shadow 0.15s;text-decoration:none;color:#222;position:relative;overflow:hidden;">
+    <span style="font-size:2.2rem;">🔎</span>
+    <span style="font-size:1.13rem;font-weight:700;margin:1.1rem 0 0.2rem 0;">Data Structures & Algorithms</span>
+    <span style="color:#607d8b;font-size:0.98rem;">All DSA & Algorithm posts</span>
+  </a>
+  <a href="{{ '/blogs/competitive-programming/' | relative_url }}" class="category-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:220px;max-width:260px;padding:2.2rem 1.2rem;background:rgba(255,255,255,0.85);border-radius:16px;box-shadow:0 2px 12px #e2e8f0;transition:transform 0.15s,box-shadow 0.15s;text-decoration:none;color:#222;position:relative;overflow:hidden;">
+    <span style="font-size:2.2rem;">🏆</span>
+    <span style="font-size:1.13rem;font-weight:700;margin:1.1rem 0 0.2rem 0;">Competitive Programming</span>
+    <span style="color:#607d8b;font-size:0.98rem;">CP & Problem Solving posts</span>
+  </a>
+  <a href="{{ '/blogs/system-design/' | relative_url }}" class="category-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:220px;max-width:260px;padding:2.2rem 1.2rem;background:rgba(255,255,255,0.85);border-radius:16px;box-shadow:0 2px 12px #e2e8f0;transition:transform 0.15s,box-shadow 0.15s;text-decoration:none;color:#222;position:relative;overflow:hidden;">
+    <span style="font-size:2.2rem;">🧠</span>
+    <span style="font-size:1.13rem;font-weight:700;margin:1.1rem 0 0.2rem 0;">System Design & General</span>
+    <span style="color:#607d8b;font-size:0.98rem;">System Design & General posts</span>
+  </a>
+  <a href="{{ '/blogs/data-plane/' | relative_url }}" class="category-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:220px;max-width:260px;padding:2.2rem 1.2rem;background:rgba(255,255,255,0.85);border-radius:16px;box-shadow:0 2px 12px #e2e8f0;transition:transform 0.15s,box-shadow 0.15s;text-decoration:none;color:#222;position:relative;overflow:hidden;">
+    <span style="font-size:2.2rem;">🌐</span>
+    <span style="font-size:1.13rem;font-weight:700;margin:1.1rem 0 0.2rem 0;">Data Plane & Networking</span>
+    <span style="color:#607d8b;font-size:0.98rem;">VPP, DPDK, Networking posts</span>
+  </a>
+  <a href="{{ '/blogs/general/' | relative_url }}" class="category-card" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:220px;max-width:260px;padding:2.2rem 1.2rem;background:rgba(255,255,255,0.85);border-radius:16px;box-shadow:0 2px 12px #e2e8f0;transition:transform 0.15s,box-shadow 0.15s;text-decoration:none;color:#222;position:relative;overflow:hidden;">
+    <span style="font-size:2.2rem;">📝</span>
+    <span style="font-size:1.13rem;font-weight:700;margin:1.1rem 0 0.2rem 0;">General & Learning</span>
+    <span style="color:#607d8b;font-size:0.98rem;">General & Learning posts</span>
+  </a>
 </div>
 
 <div style="text-align:center;margin-top:2.5rem;">
