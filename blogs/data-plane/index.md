@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Plane Blogs
-permalink: /blogs/data-plane/
+# permalink: /blogs/data-plane/
 ---
 
 # Data Plane Blogs

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: General Blogs
-permalink: /blogs/general/
+# permalink: /blogs/general/
 ---
 
 # General Blogs

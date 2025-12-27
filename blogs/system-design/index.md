@@ -1,7 +1,7 @@
 ---
 layout: default
 title: System Design Blogs
-permalink: /blogs/system-design/
+# permalink: /blogs/system-design/
 ---
 
 # System Design Blogs

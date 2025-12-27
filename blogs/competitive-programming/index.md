@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Competitive Programming Blogs
-permalink: /blogs/competitive-programming/
 ---
 
 # Competitive Programming Blogs

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DSA Blogs
-permalink: /blogs/dsa/
+# permalink: /blogs/dsa/
 ---
 
 # DSA Blogs
