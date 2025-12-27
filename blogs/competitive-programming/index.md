@@ -10,7 +10,7 @@ Explore all Competitive Programming and Problem Solving blog posts:
 
 <div class="section-divider"></div>
 
-<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">s
+<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
 {% assign cp_posts = site.posts | where_exp: "post", "post.categories contains 'competitive-programming' or post.categories contains 'problem-solving'" %}
 {% for post in cp_posts %}
   <div class="project-card" style="min-width:240px;max-width:320px;background:rgba(255,255,255,0.92);border-radius:14px;box-shadow:0 2px 12px #e2e8f0;padding:1.3rem 1.1rem;text-align:center;transition:box-shadow 0.2s;position:relative;overflow:hidden;">
