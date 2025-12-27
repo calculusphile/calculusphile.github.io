@@ -3,16 +3,33 @@ layout: default
 ---
 
 <article class="post">
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">
-            <time datetime="{{ page.date | date_to_xmlschema }}">
-                {{ page.date | date: "%B %d, %Y" }}
-            </time>
-        </p>
+    <header class="post-hero" style="background:linear-gradient(90deg,#e0f7fa 0%,#fce4ec 100%);padding:2.5rem 1.5rem 2rem 1.5rem;border-radius:1.2rem 1.2rem 0 0;box-shadow:0 4px 24px rgba(0,212,255,0.08);margin-bottom:2.5rem;">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1.2rem;">
+            <div>
+                <h1 class="post-title" style="font-size:2.2rem;margin-bottom:0.5rem;">{{ page.title }}</h1>
+                <div class="post-meta" style="font-size:1.08rem;color:#607d8b;">
+                    <span style="margin-right:1.2rem;">
+                        <time datetime="{{ page.date | date_to_xmlschema }}">
+                            {{ page.date | date: "%B %d, %Y" }}
+                        </time>
+                    </span>
+                    {% if page.author %}<span style="margin-right:1.2rem;">👤 {{ page.author }}</span>{% endif %}
+                    {% if page.tags %}<span>🏷️ {{ page.tags | join: ', ' }}</span>{% endif %}
+                    {% if page.reading_time %}<span style="margin-left:1.2rem;">⏱️ {{ page.reading_time }} min read</span>{% endif %}
+                </div>
+            </div>
+            <div style="display:flex;align-items:center;gap:0.5rem;">
+                <a href="{{ '/blogs' | relative_url }}" class="btn-crosslink" style="font-size:1rem;padding:0.5rem 1.1rem;">
+                    <span style="font-size:1.1rem;">←</span> Back to Blogs
+                </a>
+                <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}" target="_blank" rel="noopener" class="btn-crosslink" style="background:linear-gradient(90deg,#1da1f2,#0a8dcd);font-size:1rem;padding:0.5rem 1.1rem;">
+                    <span style="font-size:1.1rem;">🐦</span> Share
+                </a>
+            </div>
+        </div>
     </header>
 
-    <div class="post-content">
+    <div class="post-content" style="padding:0 0.5rem 2.5rem 0.5rem;">
         {{ content }}
     </div>
 </article>

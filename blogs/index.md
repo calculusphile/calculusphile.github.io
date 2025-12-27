@@ -1,27 +1,110 @@
 ---
 layout: default
 title: Blogs
+permalink: /blogs/
 ---
 
 # Blogs
 
-Welcome to the blogs index. Explore the latest posts below:
+Welcome to the blogs index. Explore posts by category:
 
+<div class="section-divider"></div>
+
+<!-- DSA & Algorithms -->
+<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">Data Structures & Algorithms</h2>
 <div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
 {% for post in site.posts %}
-	{% if post.categories contains 'blogs' %}
-		<div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
-			<span style="font-size:2rem;">📝</span>
-			<h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
-				<a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
-			</h3>
-			<div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
-			<div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
-		</div>
-	{% endif %}
+  {% if post.categories contains 'dsa' or post.categories contains 'algorithms' %}
+    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
+      <span style="font-size:2rem;">🔎</span>
+      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
+        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
+      </h3>
+      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
+      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<div class="section-divider"></div>
+
+<!-- Competitive Programming -->
+<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">Competitive Programming & Problem Solving</h2>
+<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
+{% for post in site.posts %}
+  {% if post.categories contains 'competitive-programming' or post.categories contains 'problem-solving' %}
+    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
+      <span style="font-size:2rem;">🏆</span>
+      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
+        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
+      </h3>
+      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
+      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<div class="section-divider"></div>
+
+<!-- System Design & General Learning -->
+<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">System Design & General Learning</h2>
+<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
+{% for post in site.posts %}
+  {% if post.categories contains 'system-design' or post.categories contains 'learning' or post.categories contains 'general' %}
+    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
+      <span style="font-size:2rem;">🧠</span>
+      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
+        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
+      </h3>
+      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
+      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<div class="section-divider"></div>
+
+<!-- Data Plane (VPP, DPDK, etc.) -->
+<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">Data Plane & Networking</h2>
+<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
+{% for post in site.posts %}
+  {% if post.categories contains 'data-plane' or post.categories contains 'vpp' or post.categories contains 'dpdk' %}
+    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
+      <span style="font-size:2rem;">🌐</span>
+      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
+        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
+      </h3>
+      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
+      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<div class="section-divider"></div>
+
+<!-- All Other Blogs -->
+<h2 style="font-size:1.3rem;margin:2.5rem 0 1.2rem 0;font-weight:700;">All Blogs</h2>
+<div class="projects-list" style="display:flex;flex-wrap:wrap;gap:2rem 2.5rem;justify-content:center;">
+{% for post in site.posts %}
+  {% unless post.categories contains 'dsa' or post.categories contains 'algorithms' or post.categories contains 'data-plane' or post.categories contains 'vpp' or post.categories contains 'dpdk' or post.categories contains 'competitive-programming' or post.categories contains 'problem-solving' or post.categories contains 'system-design' or post.categories contains 'learning' or post.categories contains 'general' %}
+    <div class="project-card" style="min-width:240px;max-width:320px;background:#f8fafc;border-radius:10px;box-shadow:0 2px 8px #e2e8f0;padding:1.2rem 1rem;text-align:center;">
+      <span style="font-size:2rem;">📝</span>
+      <h3 style="margin:0.7rem 0 0.3rem 0;font-size:1.18rem;font-weight:700;">
+        <a href="{{ post.url | relative_url }}" style="color:#1976d2;text-decoration:none;">{{ post.title }}</a>
+      </h3>
+      <div style="color:#607d8b;font-size:0.98rem;margin-bottom:0.5rem;">{{ post.date | date: "%B %d, %Y" }}</div>
+      <div style="color:#455a64;font-size:0.97rem;">{{ post.excerpt | strip_html | truncate: 90 }}</div>
+    </div>
+  {% endunless %}
 {% endfor %}
 </div>
 
 <div style="text-align:center;margin-top:2.5rem;">
-	<a href="{{ '/' | relative_url }}" style="color:#607d8b;">&larr; Back to home</a>
+  <a href="{{ '/' | relative_url }}" class="btn-crosslink">
+    <span style="font-size:1.3rem;">🏠</span> Back to Home
+  </a>
 </div>
