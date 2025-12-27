@@ -71,6 +71,5 @@ This section contains the semester-wise course structure (IIIT Pune B.Tech CSE 2
 <div style="text-align:center;margin-top:2.5rem;">
   <a href="{{ '/' | relative_url }}" style="color:#607d8b;">&larr; Back to home</a>
 </div>
-</div>
 
 [Back to Learning index]({{ '/learning' | relative_url }})

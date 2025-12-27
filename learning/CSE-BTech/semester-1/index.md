@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Semester I - CSE B.Tech
+permalink: /learning/cse-btech/semester-1/
 ---
 
 

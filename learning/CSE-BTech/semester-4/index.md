@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Semester IV - CSE B.Tech
+permalink: /learning/cse-btech/semester-4/
 ---
-
 
 # Semester IV Subjects
 

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Semester VI - CSE B.Tech
+permalink: /learning/cse-btech/semester-6/
 ---
-
 
 # Semester VI Subjects
 

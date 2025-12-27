@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Semester II - CSE B.Tech
+permalink: /learning/cse-btech/semester-2/
 ---
-
 
 # Semester II Subjects
 

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Semester III - CSE B.Tech
+permalink: /learning/cse-btech/semester-3/
 ---
-
 
 # Semester III Subjects
 

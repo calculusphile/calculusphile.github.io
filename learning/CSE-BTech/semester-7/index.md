@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Semester VII - CSE B.Tech
+permalink: /learning/cse-btech/semester-7/
 ---
-
 
 # Semester VII Subjects
 

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Semester V - CSE B.Tech
+permalink: /learning/cse-btech/semester-5/
 ---
-
 
 # Semester V Subjects
 
