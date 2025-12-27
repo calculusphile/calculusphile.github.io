@@ -1,4 +1,4 @@
-categories: dsa
+---
 layout: post
 title: "Slow and Fast Pointer"
 date: 2025-12-25
