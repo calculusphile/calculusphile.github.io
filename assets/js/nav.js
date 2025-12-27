@@ -1,4 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
+  // Dynamic header on scroll
+  var header = document.querySelector('.site-header');
+  var lastScroll = 0;
+  window.addEventListener('scroll', function() {
+    var y = window.scrollY;
+    if (y > 10) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+    lastScroll = y;
+  });
+
   var btn = document.querySelector('.nav-toggle');
   var nav = document.querySelector('.site-nav');
   if (!btn || !nav) return;
