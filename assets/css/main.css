@@ -454,6 +454,23 @@ a[role="button"]:hover, .btn:hover {
     /* Ensure desktop styles unaffected: show small-screen underline less visible */
     .site-nav a::after { display: none; }
 }
+    /* Mobile-only: align site title left, hamburger right */
+    .site-header-inner {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .site-header h1 {
+        text-align: left;
+        margin-right: auto;
+    }
+    .nav-toggle {
+        position: absolute;
+        top: 1.2rem;
+        right: 1.2rem;
+        margin: 0;
+        z-index: 200;
+    }
 
 /* Icon for cards */
 .card-icon {
